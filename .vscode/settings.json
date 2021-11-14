@@ -28,10 +28,14 @@
     "git.autofetch": true,
     "git.confirmSync": false,
     "cSpell.words": [
+        "gamepad",
         "gradlew",
         "pushbuttons",
         "roborio",
         "Romi",
+        "Suppplier",
+        "teleop",
+        "teleoperated",
         "wpilib",
         "xaxis",
         "zaxis"
