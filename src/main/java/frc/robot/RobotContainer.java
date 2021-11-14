@@ -31,18 +31,16 @@ public class RobotContainer {
     private final Drivetrain m_drivetrain = new Drivetrain();
     private final OnBoardIO m_onboardIO = new OnBoardIO(ChannelMode.INPUT, ChannelMode.INPUT);
 
-    // Assumes a gamepad plugged into channnel 0
+    // Assumes a gamepad plugged into channel 0
     private final Joystick m_controller = new Joystick(0);
 
     // Create SmartDashboard chooser for autonomous routines
     private final SendableChooser<Command> m_chooser = new SendableChooser<>();
 
     // NOTE: The I/O pin functionality of the 5 exposed I/O pins depends on the
-    // hardware "overlay"
-    // that is specified when launching the wpilib-ws server on the Romi raspberry
-    // pi.
-    // By default, the following are available (listed in order from inside of the
-    // board to outside):
+    // hardware "overlay" that is specified when launching the wpilib-ws server on
+    // the Romi raspberry pi. By default, the following are available (listed in
+    // order from inside of the board to outside):
     // - DIO 8 (mapped to Arduino pin 11, closest to the inside of the board)
     // - Analog In 0 (mapped to Analog Channel 6 / Arduino Pin 4)
     // - Analog In 1 (mapped to Analog Channel 2 / Arduino Pin 20)
