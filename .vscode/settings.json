@@ -1,18 +1,43 @@
 {
-  "java.configuration.updateBuildConfiguration": "automatic",
-  "java.server.launchMode": "Standard",
-  "files.exclude": {
-    "**/.git": true,
-    "**/.svn": true,
-    "**/.hg": true,
-    "**/CVS": true,
-    "**/.DS_Store": true,
-    "bin/": true,
-    "**/.classpath": true,
-    "**/.project": true,
-    "**/.settings": true,
-    "**/.factorypath": true,
-    "**/*~": true
-  },
-  "wpilib.skipSelectSimulateExtension": true
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "java.server.launchMode": "Standard",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "bin/": true,
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true,
+        "**/*~": true
+    },
+    "wpilib.skipSelectSimulateExtension": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnPaste": true,
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "scm.alwaysShowRepositories": true,
+    "git.suggestSmartCommit": false,
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "cSpell.words": [
+        "gamepad",
+        "gradlew",
+        "pushbuttons",
+        "roborio",
+        "Romi",
+        "Suppplier",
+        "teleop",
+        "teleoperated",
+        "wpilib",
+        "xaxis",
+        "zaxis"
+    ],
 }

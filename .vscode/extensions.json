@@ -1,0 +1,10 @@
+{
+    "recommendations": [
+        "wpilibsuite.vscode-wpilib",
+        "vscjava.vscode-java-pack",
+        "shengchen.vscode-checkstyle",
+        "streetsidesoftware.code-spell-checker",
+        "editorconfig.editorconfig",
+        "eamodio.gitlens"
+    ]
+}
